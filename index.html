@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f8ff">
+  <meta name="description" content="Bekzod — first-year IT student at Inha University in Tashkent. Personal portfolio and learning notes.">
+  <title>Bekzod — IT Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="page-glow page-glow-one" aria-hidden="true"></div>
+  <div class="page-glow page-glow-two" aria-hidden="true"></div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Bekzod home"><span class="brand-mark">B.</span><span>bekzod<span class="brand-dot">.</span></span></a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#about">About</a><a href="#courses">Courses</a><a href="#projects">Projects</a><a href="#contact">Contact</a>
+    </nav>
+    <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to dark mode" title="Toggle color theme">
+      <svg class="sun-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4"></circle><path d="M12 2v2m0 16v2M4.93 4.93l1.42 1.42m11.3 11.3 1.42 1.42M2 12h2m16 0h2M4.93 19.07l1.42-1.42m11.3-11.3 1.42-1.42"></path></svg>
+      <svg class="moon-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 15.5A8.5 8.5 0 0 1 8.5 3.5 8.5 8.5 0 1 0 20.5 15.5Z"></path></svg>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero section-wrap" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> FIRST-YEAR IT STUDENT <span class="eyebrow-line"></span> TASHKENT, UZBEKISTAN</div>
+        <h1>Hey, I’m <span class="gradient-text">Bekzod.</span><br>Curious by nature.<br><span class="muted-heading">Building my future in tech.</span></h1>
+        <p class="hero-description">I’m a first-year student at Inha University in Tashkent, exploring technology, sharpening my skills, and turning what I learn into practical projects.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↗</span></a><a class="text-link" href="#about">A little about me <span aria-hidden="true">↓</span></a></div>
+        <div class="hero-meta"><span><span class="meta-icon">⌘</span> Learning every day</span><span><span class="meta-icon">◎</span> Open to new ideas</span></div>
+      </div>
+      <div class="hero-art" aria-label="Abstract blue geometric illustration">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+        <div class="art-card art-card-back"><span class="tiny-label">CURRENT FOCUS</span><strong>Learn.<br>Build.<br>Repeat.</strong><span class="art-card-foot">01 / 03</span></div>
+        <div class="art-card art-card-front"><div class="code-top"><i></i><i></i><i></i><span>hello_world.js</span></div><div class="code-lines"><p><span class="code-purple">const</span> <span class="code-blue">student</span> = {</p><p class="indent"><span class="code-green">name</span>: <span class="code-yellow">'Bekzod'</span>,</p><p class="indent"><span class="code-green">level</span>: <span class="code-yellow">'Year 1'</span>,</p><p class="indent"><span class="code-green">goal</span>: <span class="code-yellow">'Build cool things'</span></p><p>};</p><p class="code-comment">// the journey starts here_</p></div></div>
+        <div class="floating-chip chip-top">✳ &nbsp;Always learning</div><div class="floating-chip chip-bottom"><span class="chip-spark">✦</span> IT &amp; creativity</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="content-section section-wrap" id="about">
+      <div class="section-heading"><div><span class="section-kicker">01 / THE PERSON BEHIND THE SCREEN</span><h2>About <span class="gradient-text">me</span></h2></div><p class="section-intro">A student, a problem-solver in progress, and someone who enjoys figuring out how things work.</p></div>
+      <div class="about-grid"><div class="about-note"><div class="quote-mark">“</div><p>I believe the best way to learn technology is to stay curious, experiment often, and not be afraid to ask questions.</p><span class="note-signature">— Bekzod</span></div><div class="about-details"><div class="detail-row"><span class="detail-icon">⌂</span><div><span class="detail-label">BASED IN</span><strong>Tashkent, Uzbekistan</strong></div></div><div class="detail-row"><span class="detail-icon">⌘</span><div><span class="detail-label">UNIVERSITY</span><strong>Inha University in Tashkent</strong></div></div><div class="detail-row"><span class="detail-icon">↗</span><div><span class="detail-label">CURRENT CHAPTER</span><strong>First-year undergraduate</strong></div></div><div class="detail-row"><span class="detail-icon">✳</span><div><span class="detail-label">INTERESTS</span><strong>IT, problem-solving &amp; learning</strong></div></div></div></div>
+    </section>
+
+    <section class="content-section section-wrap" id="courses">
+      <div class="section-heading"><div><span class="section-kicker">02 / WHAT I’M STUDYING</span><h2>My <span class="gradient-text">courses</span></h2></div><p class="section-intro">The foundations I’m building this semester, one concept at a time.</p></div>
+      <div class="course-grid">
+        <article class="course-card"><div class="course-top"><span class="course-number">01</span><span class="course-icon">⌘</span></div><h3>Introduction to IT</h3><p>Exploring the fundamentals of information technology and how digital systems fit together.</p><div class="course-tags"><span>Technology</span><span>Foundations</span></div></article>
+        <article class="course-card"><div class="course-top"><span class="course-number">02</span><span class="course-icon">∑</span></div><h3>Calculus</h3><p>Developing mathematical thinking through functions, limits, derivatives, and problem-solving.</p><div class="course-tags"><span>Mathematics</span><span>Logic</span></div></article>
+        <article class="course-card"><div class="course-top"><span class="course-number">03</span><span class="course-icon">文</span></div><h3>English</h3><p>Improving communication skills for study, collaboration, and a global tech community.</p><div class="course-tags"><span>Language</span><span>Communication</span></div></article>
+      </div>
+    </section>
+
+    <section class="content-section section-wrap" id="projects">
+      <div class="section-heading"><div><span class="section-kicker">03 / LEARNING BY DOING</span><h2>Selected <span class="gradient-text">projects</span></h2></div><p class="section-intro">Small steps, practical experiments, and notes from my learning journey.</p></div>
+      <article class="project-card"><div class="project-visual"><div class="network-window"><div class="window-bar"><span></span><span></span><span></span><b>network-detective.txt</b></div><div class="network-map"><div class="node node-laptop">LAPTOP</div><div class="connection connection-a"></div><div class="connection connection-b"></div><div class="connection connection-c"></div><div class="node node-router">ROUTER</div><div class="node node-server">SERVER</div><div class="node node-globe">DNS</div><div class="packet packet-one"></div><div class="packet packet-two"></div></div><div class="terminal-line"><span>➜</span> tracing the clues... <i></i></div></div></div><div class="project-info"><span class="project-label"><span class="project-status"></span> COURSE NOTES · LAB 8A</span><h3>Network Detective</h3><p>A set of notes from Lab 8a, documenting my exploration of computer networks. A place to collect observations, key concepts, and troubleshooting takeaways as I learn how devices communicate.</p><div class="project-tags"><span>Networking</span><span>Lab notes</span><span>IT fundamentals</span></div><div class="project-footer"><span>PERSONAL LEARNING PROJECT</span><span class="project-arrow">↗</span></div></div></article>
+    </section>
+
+    <section class="contact-section section-wrap" id="contact"><div class="contact-panel"><div class="contact-orb"></div><span class="section-kicker">04 / SAY HELLO</span><h2>Have an idea?<br><span class="gradient-text">Let’s connect.</span></h2><p>I’m always glad to meet people who enjoy learning, sharing ideas, and building things.</p><a class="button button-light" href="mailto:?subject=Hello%20Bekzod">Get in touch <span aria-hidden="true">↗</span></a><span class="contact-footnote">Add your preferred email or social links here when you’re ready.</span></div></section>
+  </main>
+
+  <footer class="site-footer section-wrap"><a class="brand footer-brand" href="#home"><span class="brand-mark">B.</span><span>bekzod<span class="brand-dot">.</span></span></a><span>Designed &amp; built with curiosity.</span><span>© <span id="year"></span> Bekzod</span></footer>
+</body>
+</html>
